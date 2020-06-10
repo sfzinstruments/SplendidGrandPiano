@@ -1,0 +1,77 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// Splendid Grand Piano
+// Public Domain by AKAI
+// --------------------------------------
+// converted by kinwie
+// --------------------------------------
+
+
+//midi cc
+#define $RELEASE 72
+#define $VELTRACK 99
+
+//file-folder
+#define $EXT flac
+#define $DIR Data
+
+
+//////////////////////////////////////////////////////////
+<control>
+default_path=Samples/
+
+label_cc$RELEASE=Release
+label_cc$VELTRACK=Veltrack
+set_hdcc$RELEASE=0.35
+set_hdcc$VELTRACK=1
+
+
+//*******************************************************
+<global>
+ampeg_attack=0.0005
+ampeg_hold=2
+ampeg_hold_oncc133=-1
+ampeg_decay=40
+ampeg_decay_oncc133=-20
+ampeg_sustain=0
+ampeg_release_oncc$RELEASE=2
+amp_veltrack_oncc$VELTRACK=-100
+amp_veltrack_curvecc$VELTRACK=2
+
+//===================================
+
+<group>
+lovel=1
+hivel=40
+cutoff=1000
+group_label=PPP
+#include "$DIR/PP.txt"
+
+<group>
+lovel=41
+hivel=67
+#define $DYN PP
+group_label=$DYN
+#include "$DIR/$DYN.txt"
+
+<group>
+lovel=68
+hivel=84
+#define $DYN MP
+group_label=$DYN
+#include "$DIR/$DYN.txt"
+
+<group>
+lovel=85
+hivel=100
+#define $DYN MF
+group_label=$DYN
+#include "$DIR/$DYN.txt"
+
+<group>
+lovel=101
+hivel=127
+#define $DYN FF
+group_label=$DYN
+#include "$DIR/$DYN.txt"
