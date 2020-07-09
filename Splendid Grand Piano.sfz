@@ -30,10 +30,10 @@ set_hdcc$VELTRACK=1
 //*******************************************************
 <global>
 ampeg_attack=0.0005
-ampeg_hold=2
-ampeg_hold_oncc133=-1
-ampeg_decay=40
-ampeg_decay_oncc133=-20
+ampeg_hold=8
+ampeg_hold_oncc133=-6
+ampeg_decay=80
+ampeg_decay_oncc133=-60
 ampeg_sustain=0
 ampeg_release_oncc$RELEASE=2
 amp_veltrack_oncc$VELTRACK=-100
@@ -45,12 +45,15 @@ amp_veltrack_curvecc$VELTRACK=2
 lovel=1
 hivel=40
 cutoff=1000
-group_label=PPP
-#include "$DIR/PP.txt"
+group_volume=0
+#define $DYN PP
+group_label=P$DYN
+#include "$DIR/$DYN.txt"
 
 <group>
 lovel=41
 hivel=67
+group_volume=0
 #define $DYN PP
 group_label=$DYN
 #include "$DIR/$DYN.txt"
@@ -58,6 +61,7 @@ group_label=$DYN
 <group>
 lovel=68
 hivel=84
+group_volume=0
 #define $DYN MP
 group_label=$DYN
 #include "$DIR/$DYN.txt"
@@ -65,6 +69,7 @@ group_label=$DYN
 <group>
 lovel=85
 hivel=100
+group_volume=0
 #define $DYN MF
 group_label=$DYN
 #include "$DIR/$DYN.txt"
@@ -72,6 +77,7 @@ group_label=$DYN
 <group>
 lovel=101
 hivel=127
+group_volume=0
 #define $DYN FF
 group_label=$DYN
 #include "$DIR/$DYN.txt"
