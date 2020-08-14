@@ -38,6 +38,8 @@ ampeg_sustain=0
 ampeg_release_oncc$RELEASE=2
 amp_veltrack_oncc$VELTRACK=-100
 amp_veltrack_curvecc$VELTRACK=2
+note_polyphony=1
+off_time=0.5
 
 //===================================
 
