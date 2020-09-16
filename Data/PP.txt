@@ -41,21 +41,21 @@
 <region> region_label=41 lokey=087 hikey=087 pitch_keycenter=087 ampeg_release=0.3 sample=PP D#5.$EXT
 <region> region_label=42 lokey=088 hikey=089 pitch_keycenter=089 ampeg_release=0.4 sample=PP F5.$EXT
 <region> region_label=43 lokey=090 hikey=090 pitch_keycenter=090 ampeg_release=0.6 sample=PP F#5.$EXT pan=-40
-<region> region_label=44 lokey=091 hikey=091 pitch_keycenter=091 ampeg_release=20 sample=PP G5.$EXT pan=-30 offset=135
-<region> region_label=45 lokey=092 hikey=092 pitch_keycenter=092 ampeg_release=20 sample=PP G#5.$EXT pan=-30
-<region> region_label=46 lokey=093 hikey=093 pitch_keycenter=093 ampeg_release=20 sample=PP A5.$EXT pan=-45
-<region> region_label=47 lokey=094 hikey=094 pitch_keycenter=094 ampeg_release=20 sample=PP A#5.$EXT pan=-45
-<region> region_label=48 lokey=095 hikey=095 pitch_keycenter=095 ampeg_release=20 sample=PP B5.$EXT offset=324
-<region> region_label=49 lokey=096 hikey=096 pitch_keycenter=096 ampeg_release=20 sample=PP C6.$EXT offset=57
-<region> region_label=50 lokey=097 hikey=097 pitch_keycenter=097 ampeg_release=20 sample=PP C#6.$EXT offset=265
-<region> region_label=51 lokey=098 hikey=098 pitch_keycenter=098 ampeg_release=20 sample=PP D6.$EXT
-<region> region_label=52 lokey=099 hikey=099 pitch_keycenter=099 ampeg_release=20 sample=PP D#6.$EXT
-<region> region_label=53 lokey=100 hikey=100 pitch_keycenter=100 ampeg_release=20 sample=PP E6.$EXT
-<region> region_label=54 lokey=101 hikey=101 pitch_keycenter=101 ampeg_release=20 sample=PP F6.$EXT
-<region> region_label=55 lokey=102 hikey=102 pitch_keycenter=102 ampeg_release=20 sample=PP F#6.$EXT
-<region> region_label=56 lokey=103 hikey=103 pitch_keycenter=103 ampeg_release=20 sample=PP G6.$EXT
-<region> region_label=57 lokey=104 hikey=104 pitch_keycenter=104 ampeg_release=20 sample=PP G#6.$EXT
-<region> region_label=58 lokey=105 hikey=105 pitch_keycenter=105 ampeg_release=20 sample=PP A6.$EXT offset=146
-<region> region_label=59 lokey=106 hikey=106 pitch_keycenter=106 ampeg_release=20 sample=PP A#6.$EXT
-<region> region_label=60 lokey=107 hikey=107 pitch_keycenter=107 ampeg_release=20 sample=PP B6.$EXT
-<region> region_label=61 lokey=108 hikey=108 pitch_keycenter=108 ampeg_release=20 sample=PP C7.$EXT
+<region> region_label=44 lokey=091 hikey=091 pitch_keycenter=091 ampeg_release=10 sample=PP G5.$EXT pan=-30 offset=135
+<region> region_label=45 lokey=092 hikey=092 pitch_keycenter=092 ampeg_release=10 sample=PP G#5.$EXT pan=-30
+<region> region_label=46 lokey=093 hikey=093 pitch_keycenter=093 ampeg_release=10 sample=PP A5.$EXT pan=-45
+<region> region_label=47 lokey=094 hikey=094 pitch_keycenter=094 ampeg_release=10 sample=PP A#5.$EXT pan=-45
+<region> region_label=48 lokey=095 hikey=095 pitch_keycenter=095 ampeg_release=10 sample=PP B5.$EXT offset=324
+<region> region_label=49 lokey=096 hikey=096 pitch_keycenter=096 ampeg_release=10 sample=PP C6.$EXT offset=57
+<region> region_label=50 lokey=097 hikey=097 pitch_keycenter=097 ampeg_release=10 sample=PP C#6.$EXT offset=265
+<region> region_label=51 lokey=098 hikey=098 pitch_keycenter=098 ampeg_release=10 sample=PP D6.$EXT
+<region> region_label=52 lokey=099 hikey=099 pitch_keycenter=099 ampeg_release=10 sample=PP D#6.$EXT
+<region> region_label=53 lokey=100 hikey=100 pitch_keycenter=100 ampeg_release=10 sample=PP E6.$EXT
+<region> region_label=54 lokey=101 hikey=101 pitch_keycenter=101 ampeg_release=10 sample=PP F6.$EXT
+<region> region_label=55 lokey=102 hikey=102 pitch_keycenter=102 ampeg_release=10 sample=PP F#6.$EXT
+<region> region_label=56 lokey=103 hikey=103 pitch_keycenter=103 ampeg_release=10 sample=PP G6.$EXT
+<region> region_label=57 lokey=104 hikey=104 pitch_keycenter=104 ampeg_release=10 sample=PP G#6.$EXT
+<region> region_label=58 lokey=105 hikey=105 pitch_keycenter=105 ampeg_release=10 sample=PP A6.$EXT offset=146
+<region> region_label=59 lokey=106 hikey=106 pitch_keycenter=106 ampeg_release=10 sample=PP A#6.$EXT
+<region> region_label=60 lokey=107 hikey=107 pitch_keycenter=107 ampeg_release=10 sample=PP B6.$EXT
+<region> region_label=61 lokey=108 hikey=108 pitch_keycenter=108 ampeg_release=10 sample=PP C7.$EXT
