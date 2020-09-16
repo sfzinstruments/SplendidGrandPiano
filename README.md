@@ -17,3 +17,7 @@ and mapped to SFZ format with ARIA extensions by kinwie.
 - Some additional tweaks has been added to this sfz version
 - Later tweaks by user can be easily made,
 for example to adjust dynamics range to suit personal playing and taste
+
+## String Resonance
+Updated to include the string resonance simulation created by P.Eastman.
+Turn down the "Resonance" control to 0 will also turn off the resonance polyphony.
