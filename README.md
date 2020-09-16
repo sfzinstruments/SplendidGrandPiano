@@ -20,4 +20,5 @@ for example to adjust dynamics range to suit personal playing and taste
 
 ## String Resonance
 Updated to include the string resonance simulation created by P.Eastman.
+Active when the sustain pedal is down/pressed.
 Turn down the "Resonance" control to 0 will also turn off the resonance polyphony.
