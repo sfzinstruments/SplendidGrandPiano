@@ -5,10 +5,12 @@
 // Public Domain by AKAI
 // --------------------------------------
 // converted by kinwie
+// string resonance by P.Eastman
 // --------------------------------------
 
 
 //midi cc
+#define $RES 70
 #define $RELEASE 72
 #define $VELTRACK 99
 
@@ -23,11 +25,14 @@ default_path=Samples/
 
 label_cc7=Vol
 label_cc10=Pan
+label_cc64=Sus.Pedal
+label_cc$RES=Resonance
 label_cc$RELEASE=Release
 label_cc$VELTRACK=Veltrack
 
 set_cc7=100
 set_hdcc10=0.5
+set_hdcc$RES=0.5
 set_hdcc$RELEASE=0.35
 set_hdcc$VELTRACK=1
 
@@ -51,6 +56,13 @@ note_polyphony=1
 off_time=0.5
 
 //===================================
+
+<group>
+group=1
+locc64=65
+locc$RES=1
+amplitude_oncc$RES=200
+#include "$DIR/Res.txt"
 
 <group>
 lovel=1
