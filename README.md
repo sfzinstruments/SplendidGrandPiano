@@ -8,6 +8,8 @@ The version we put here is the 256 MB version.
 All samples has been properly fixed and converted to flac,
 and mapped to SFZ format with ARIA extensions by kinwie.
 
+Audio demo : https://sfzinstruments.github.io/pianos/splendid_grand_piano
+
 
 ## Compatibility Notes
 
