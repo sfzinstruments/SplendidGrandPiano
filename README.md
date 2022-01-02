@@ -8,17 +8,58 @@ The version we put here is the 256 MB version.
 All samples has been properly fixed and converted to flac,
 and mapped to SFZ format with ARIA extensions by kinwie.
 
-## SFZ Details
 
-- Added 5th layer at lowest velocity using filter cutoff
-- High notes are undampened mode
-- Release control time up to 2s, initial at 0.7s
-- Veltrack control to adjust volume response to velocity
-- Some additional tweaks has been added to this sfz version
-- Later tweaks by user can be easily made,
-for example to adjust dynamics range to suit personal playing and taste
+## Compatibility Notes
 
-## String Resonance
-Updated to include the string resonance simulation created by P.Eastman.
-Active when the sustain pedal is down/pressed.
-Turn down the "Resonance" control to 0 will also turn off the resonance polyphony.
+This SFZ Instrument is reconstructed with the heavily use of SFZ specification level 2.0 + ARIA Extensions. With this is mind, this 
+instrument will only played properly in Plogue sforzando and similar sfz samplers that used ARIA Engine. Trying to play this 
+instrument in other than ARIA-based sfz samplers may cause issues and problems if it doesn't support the opcodes superset 
+used in this sfz instrument. If ARIA-based sfz sampler is not your choice, we advised you to choose a sfz sampler that has similar 
+level of opcodes support for this instrument can be played and sounded as it should.
+
+
+## Control Details
+
+- Sus.Pedal : Sustain pedal position (up/down)
+- Resonance : String resonance amount
+- Release : Release time, up to 2 seconds, initial at 0.7 seconds
+- Veltrack : Dynamic range / velocity to volume response
+
+
+## Improvements and Features
+
+- This piano has the note-selfmasking sfz native feature and polyphony optimized. This means, when playing a lot of notes (e.g. 
+repetitive, trills or sustain pedal down), the voices count will be handled effectively and lower, which also means less jumping in 
+CPU usage and results in more natural piano sound behavior.
+
+- Added 5th layer at lowest velocity using filter cutoff.
+
+- High notes are undampened mode only as suggested by all fellow sfz pianist users.
+
+- String Resonance simulation added and active when the sustain pedal is down/pressed. This feature makes this piano sounds 
+fuller, thanks to Peter Eastman. Turn down the "Resonance" control to 0 will also turn off the resonance polyphony usage.
+
+
+## Usage Tips
+
+- Setting Veltrack value to achieve a pleasant dynamic range that suit you also depend on your playing style and your 
+keyboard/MIDI controller touch response. Try increase and decrease this "Veltrack" parameter as you play and feel the suitable 
+one for you. To change the default value permanently, find this line in the sfz file : `set_hdcc$VELTRACK=1` and change the 
+value to the one you that wanted, range from 0 to 1.
+
+- MIDI CC numbers are assigned at the top of the sfz file with the #define macro. They can be easily changed to your personal 
+favor or to match your MIDI controller device setup. After loading the instrument in sforzando, click the "Open In Text Editor" 
+blue button at the INFO page, the sfz file will open by your default text editor. You will see a list of parameter's defined 
+numbers. Change the number to your preference and then save it (e.g. Ctrl+S in WinOS), the CC numbers are updated to new 
+ones. This is a handy feature in sfz and is a bit similar to MIDI Learn function.
+
+
+## Update Log
+
+- Sep 16, 2020 : Add String Resonance simulation created by Peter Eastman
+
+- Aug 23, 2020 : Cosmetic update
+
+- Aug 14, 2020 : Optimizing polyphony
+
+- Jul 9, 2020 : Increase hold and decay time, suggested by Peter Eastman
