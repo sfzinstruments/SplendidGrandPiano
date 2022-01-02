@@ -34,7 +34,7 @@ level of opcodes support for this instrument can be played and sounded as it sho
 repetitive, trills or sustain pedal down), the voices count will be handled effectively and lower, which also means less jumping in 
 CPU usage and results in more natural piano sound behavior.
 
-- Added 5th layer at lowest velocity using filter cutoff.
+- 5th layer added at lowest velocity using filter cutoff.
 
 - High notes are undampened mode only as suggested by all fellow sfz pianist users.
 
