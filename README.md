@@ -47,7 +47,7 @@ fuller, thanks to Peter Eastman. Turn down the "Resonance" control to 0 will als
 - Setting Veltrack value to achieve a pleasant dynamic range that suit you also depend on your playing style and your 
 keyboard/MIDI controller touch response. Try increase and decrease this "Veltrack" parameter as you play and feel the suitable 
 one for you. To change the default value permanently, find this line in the sfz file : `set_hdcc$VELTRACK=1` and change the 
-value to the one you that wanted, range from 0 to 1.
+value to the one that you wanted, range from 0 to 1.
 
 - MIDI CC numbers are assigned at the top of the sfz file with the #define macro. They can be easily changed to your personal 
 favor or to match your MIDI controller device setup. After loading the instrument in sforzando, click the "Open In Text Editor" 
