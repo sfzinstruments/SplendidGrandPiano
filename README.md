@@ -63,6 +63,8 @@ it's derived from this sfz instrument in this github repository.
 
 ## Update Log
 
+- May 6,2024 : Add Half-pedalling by Peter Eastman
+
 - Sep 16, 2020 : Add String Resonance simulation created by Peter Eastman
 
 - Aug 23, 2020 : Cosmetic update
